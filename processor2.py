@@ -8,21 +8,6 @@ from heapq import nlargest
 
 
 def process_messages(messages):
-    """
-    id
-    date
-    out
-    mentioned
-    media_unread
-    silent
-    post
-    reply_to_msg_id
-    message
-    via_bot_id
-
-    :param messages:
-    :return:
-    """
     msg_lengths = np.array([])
     embedding = NewsEmbedding()
     morph_vocab = MorphVocab()
